@@ -8,7 +8,7 @@
  */
 
 export class BetterMap extends Map {
-    public constructor(iterable?: [string, any][]) {
+    public constructor(iterable?: IterableIterator<[string, any]>) {
         super();
         if (iterable) {
             for (let i of iterable) {
