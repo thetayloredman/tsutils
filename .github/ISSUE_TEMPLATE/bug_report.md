@@ -14,7 +14,9 @@ assignees: ''
   will mark your issue as so and close it.
 
   It's best to test on the LATEST COMMIT on branch `master`.
-  It makes it a lot easier for us to resolve your bug fast.
+  It makes it a lot easier for us to resolve your bug faster
+  then we count because then we know it hasn't been resolved
+  by a newer commit.
   
   Also, please check if your issue was already submitted.
   Duplicates waste everyone's time!
