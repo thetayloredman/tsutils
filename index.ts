@@ -21,4 +21,24 @@ export class BetterMap extends Map {
         super.set(key, value);
         return this;
     }
+
+    public get(key: string) {
+        return super.get(key);
+    }
+
+    public delete(key: string) {
+        return super.delete(key);
+    }
+
+    public keys() {
+        return super.keys();
+    }
+
+    public entries() {
+        return super.entries();
+    }
+
+    public values() {
+        return super.values();
+    }
 }
