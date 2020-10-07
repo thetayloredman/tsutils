@@ -54,7 +54,7 @@ assignees: ''
 
 # Other
 
-<!-- to fill checkboxes, simply replace - [ ] ... to - [x] ...
+<!-- to fill checkboxes, simply replace - [ ] ... to - [x] ... -->
 
 - [ ] I tested this on the latest `master`.
 
