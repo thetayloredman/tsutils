@@ -17,28 +17,36 @@ export class BetterMap extends Map {
         }
     }
 
-    public set(key: string, value?: any) {
+    public set(key: string, value?: any): this {
         super.set(key, value);
         return this;
     }
 
-    public get(key: string) {
+    public get(key: string): any {
         return super.get(key);
     }
 
-    public delete(key: string) {
+    public delete(key: string): boolean {
         return super.delete(key);
     }
 
-    public keys() {
+    public keys(): IterableIterator<string> {
         return super.keys();
     }
 
-    public entries() {
+    public entries(): IterableIterator<[string, any]> {
         return super.entries();
     }
 
-    public values() {
+    public values(): IterableIterator<any> {
         return super.values();
+    }
+
+    public deleteAll(): this {
+        let keys = this.keys();
+        for (let i of keys) {
+            this.delete(i);
+        }
+        return this;
     }
 }

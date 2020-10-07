@@ -8,4 +8,5 @@ declare class BetterMap extends Map {
     public keys(): IterableIterator<string>;
     public entries(): IterableIterator<[string, any]>;
     public values(): IterableIterator<any>;
+    public deleteAll(): this;
 }
